@@ -3,12 +3,12 @@ let nameHero = "Hercules"
 let xpHero = 0
 let lvHero = ["Ferro", "Bronze", "Prata", "Ouro", "Platina", "Ascendente", "Imortal", "Radiante"]
 
-// estrutura de decisão e operadores
+// operadores, estrutura de decisão if else if, e saída 
 if (xpHero <= 1000){
     console.log("O Herói de nome " + nameHero  + " está no nível de " + lvHero[0])
 } else if (xpHero >= 1001 && xpHero <= 2000){
     console.log("O Herói de nome " + nameHero  + " está no nível de " + lvHero[1])
-} else if (xpHero >= 2001 && xpHero <= 6000){
+} else if (xpHero >= 2001 && xpHero <= 5000){
     console.log("O Herói de nome " + nameHero  + " está no nível de " + lvHero[2])
 } else if (xpHero >= 6001 && xpHero <= 7000){
     console.log("O Herói de nome " + nameHero  + " está no nível de " + lvHero[3])
